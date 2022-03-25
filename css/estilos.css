@@ -1,0 +1,437 @@
+/* Estilos para toda la pagina */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62,5%;
+}
+
+.botonWpp{
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    width: 20px;
+    height: 20px;
+    z-index: 100;
+}
+
+.contenedor_padre{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 100px 100% 40px;
+    grid-template-areas:
+        "nav nav nav nav"
+        "main main main main"
+        "foot foot foot foot"
+    ;
+}
+
+.header{
+    background-color: #d1b1cb;
+    grid-area: nav;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.cuerpo{
+    grid-area: main;
+}
+
+.footer{
+    grid-area: foot;
+}
+
+/* Menu */
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.header nav {
+    padding-right: 30px;
+}
+
+.header img{
+    width: 100px;
+    height: 100px;
+    padding-left: 30px;
+}
+
+.menu li{
+    list-style-type: none;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.menu li a{
+    text-decoration: none;
+}
+
+.menu li:hover{
+    background-color: #ddcad9;
+    text-decoration: underline;
+}
+
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #d1b1cb;
+    padding: 10px 10px;
+}
+
+.redes_sociales p{
+    display: inline-block;
+}
+
+/* Index */
+
+.slider{
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+.slider li{
+    position: absolute;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+}
+
+.slider li img{
+    width: 100%;
+    height: 600px;
+}
+
+.slider li:first-child{
+    opacity: 1;
+}
+
+.slider li:target{
+    opacity: 1;
+}
+
+.menu_slider{
+    text-align: center;
+    margin: 20px;
+}
+
+.menu_slider li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu_slider li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: #d1b1cb;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+.menu_slider li a:hover{
+    background-color: #ddcad9;
+}
+
+.bienvenida{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #ddcad9;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 50px;
+}
+
+.bienvenida p{
+    width: 45%;
+}
+
+.extras{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.extras div{
+    display: inline-block;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+}
+
+.medios_pago{
+    background-color: #ddcad9;
+    width: 500px;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.lista_medios_pago{
+    padding-top: 30px;
+}
+
+.lista_medios_pago li{
+    list-style-type: none;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.mapa{
+    width: 500px;
+    text-align: center;
+}
+
+/* Productos y Ofertas */
+
+.catalogo{
+    margin: 20px;
+}
+
+.catalogo h2{
+    padding-left: 50px;
+}
+
+.catalogo article{
+    display: inline-block;
+    padding: 10px;
+}
+
+.juguete{
+    margin: 50px;
+    width: 300px;
+    height: 450px;
+    background-color: #ddcad9;
+}
+
+.juguete h3{
+    text-align: center;
+}
+
+.juguete p{
+    text-align: center;
+    padding: 5px;
+}
+.juguete img{
+    height: 60%;
+    width: 99%;
+}
+
+.parrafoCombo{
+    padding-left: 70px;
+}
+
+
+/* Quienes Somos */
+
+.box_informacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ddcad9;
+    margin-top: 50px;
+    text-align: center;
+    height: 250px;
+    width: 100%;
+}
+
+.box_informacion h2{
+    padding-top: 40px;
+}
+
+.beneficios{
+    height: 300px;
+}
+
+.parrafos_quienes_somos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.parrafos_quienes_somos p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 70%;
+}
+
+.fotos_circulares{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.fotos_circulares div{
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.fotos_circulares div img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+/* Contacto */
+
+.contacto section{
+    display: inline-block;
+}
+
+.mapas{
+    height: 300px;
+    width: 300px;
+}
+
+@media screen and (max-width: 768px){
+    
+    .contenedor_padre{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 100px 2.6fr 0.1fr;
+        grid-template-areas:
+            "nav nav"
+            "main main"
+            "foot foot"
+        ;
+    }
+    
+    /*Index*/
+
+    .slider{
+        position: relative;
+        width: 100%;
+        height: 450px;
+    }
+    
+    .slider li img{
+        width: 100%;
+        height: 450px;
+    }
+    
+    .bienvenida{
+        padding: 30px;
+    }
+
+    .extras div{
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    
+    .medios_pago{
+        background-color: #ddcad9;
+        width: 300px;
+    }
+    
+    .mapa{
+        width: 300px;
+    }
+
+    /*Quienes Somos*/
+
+    .beneficios{
+        margin-bottom: 100px;
+        height: 400px;
+    }
+    
+}
+
+@media screen and (max-width: 426px){
+
+    .contenedor_padre{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 170px 2.6fr 0.1fr;
+        grid-template-areas:
+            "nav"
+            "main"
+            "foot"
+        ;
+    }
+
+    .menu li{
+        font-size: 25px;
+    }
+
+    /*Index*/
+
+    .header{
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    } 
+
+    .slider{
+        position: relative;
+        width: 100%;
+        height: 300px;
+    }
+    
+    .slider li img{
+        width: 100%;
+        height: 300px;
+    }
+
+    .bienvenida{
+        padding: 20px;
+    }
+    
+    .medios_pago{
+        background-color: #ddcad9;
+        width: 200px;
+    }
+
+    .medios_pago h2{
+        font-size: medium;
+    }
+    
+    .mapa{
+        width: 200px;
+    }
+
+    .mapa h2{
+        font-size: medium;
+    }
+
+    .mapas{
+        width: 150px;
+        height: 150px;
+    }
+
+    /*Quienes Somos*/
+
+    .elemento_box{
+        font-size: 25px;
+    }
+    
+    .box_informacion{
+        height: 500px;
+    }
+
+    .box_informacion h2{
+        font-size: 40px;
+    }
+    
+    .beneficios{
+        height: 700px;
+    }
+
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sr Spinkus</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+
+<body class="contenedor_padre">
+    <header class="header">
+        <img src="../multimedia/logo.png" alt="Logo Sr Spinkus">
+        <nav>
+            <ul class="menu">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="ofertas.html">Ofertas</a></li>
+                <li><a href="quienes_somos.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="botonWpp">
+        <p>
+            <i class="material-icons">whatsapp</i>
+        </p>
+    </div>
+
+    <main class="cuerpo">
+        <div class="contacto">
+            <section> <!--Formulario para contacto-->
+                <h2>Hacenos tu consulta!</h2>
+
+                <div>
+                    <form>
+                        <label for="nombre">Ingrese nombre completo</label>
+                        <input type="text" placeholder="Nombre Apellido" name="nombre">
+
+                        <br>
+
+                        <label for="mail">Ingrese su mail</label>
+                        <input type="email" placeholder="email@example.com" name="mail">
+
+                        <br>
+
+                        <label for="ubicacion">Seleccione region</label>
+                        <select name="ubicacion">
+                            <option value="CABA">CABA</option>
+                            <option value="CONUR">GRAN BSAS</option>
+                            <option value="BSAS">BUENOS AIRES</option>
+                            <option value="ARG">RESTO DEL PAIS</option>
+                        </select>
+
+                        <br>
+
+                        <label for="pregunta">Ingrese su consulta</label>
+                        <textarea name="pregunta" cols="30" rows="10"></textarea>
+
+                        <br>
+
+                        <input type="submit" value="Enviar formulario">
+                        <input type="reset" value="Resetear formulario">
+                    </form>
+                </div>
+            </section>
+
+            <section> <!--Medios de pago y ubicacion-->
+                <div>
+                    <article>
+                        <ul>
+                            <li>Medio de pago 1</li>
+                            <li>Medio de pago 2</li>
+                            <li>Medio de pago 3</li>
+                            <li>Medio de pago 4</li>
+                        </ul>
+                    </article>
+                
+                    <article>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.016887889518!2d-58.38375908505231!3d-34.60373446500544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses!2sar!4v1645674031320!5m2!1ses!2sar" class="mapas" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <section>
+            <p>Sr.Spinkus</p>
+        </section>
+        <section class="redes_sociales">
+            <p>
+                <i class="material-icons">facebook</i>
+            </p>
+            <p>
+                <i class="material-icons">whatsapp</i>
+            </p>
+            <p>
+                <i class="material-icons"></i>
+            </p>
+        </section>
+    </footer>
+
+</body>
+</html>
