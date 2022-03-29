@@ -218,7 +218,6 @@ html{
     background-color: #ddcad9;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .juguete h3{
@@ -233,6 +232,7 @@ html{
 
 .juguete input{
     margin-top: 10px;
+    margin-left: 115px;
 }
 
 .juguete img{
