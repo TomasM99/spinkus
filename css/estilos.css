@@ -197,44 +197,35 @@ html{
 
 /* Productos y Ofertas */
 
-.catalogo{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 20px;
-}
-
 .catalogo_titulo{
-    padding-left: 70px;
-    margin-top: 25px;
+    padding-left: 5%;
+    margin-top: 3%;
 }
 
 .juguete{
-    margin: 50px;
+    margin: 4%;
     padding: 10px;
-    width: 300px;
-    height: 400px;
+    width: 25%;
     background-color: #ddcad9;
-    display: flex;
-    flex-direction: column;
 }
 
 .juguete h3{
-    margin-top: 5px;
+    margin-top: 5%;
     text-align: center;
 }
 
 .juguete p{
     text-align: center;
-    padding-top: 10px;
+    margin-bottom: 0px;
 }
 
 .juguete input{
-    margin-top: 10px;
-    margin-left: 115px;
+    margin-top: 4%;
+    margin-left: 38%;
 }
 
 .juguete img{
-    height: 65%;
+    height: 300px;
     width: 99%;
 }
 
