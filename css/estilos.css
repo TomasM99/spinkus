@@ -301,6 +301,22 @@ html{
 
 /* Contacto */
 
+.formulario{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.pago_ubi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pago_ubi article{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 .mapas{
     height: 300px;
     width: 300px;
