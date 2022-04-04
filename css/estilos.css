@@ -161,18 +161,12 @@ html{
 }
 
 .bienvenida{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
     background-color: #ddcad9;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
-    padding: 50px;
-}
-
-.bienvenida p{
-    width: 45%;
 }
 
 .extras{
@@ -180,34 +174,25 @@ html{
     justify-content: space-evenly;
 }
 
-.extras div{
-    display: inline-block;
+.extra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 10px 10px;
     margin-bottom: 20px;
-}
-
-.medios_pago{
     background-color: #ddcad9;
-    width: 500px;
-}
-
-.centrar{
-    text-align: center;
+    width: 30%;
 }
 
 .lista_medios_pago{
-    padding-top: 30px;
+    align-self: flex-start;
+    padding-left: 15%;
+    padding-top: 10%;
 }
 
 .lista_medios_pago li{
     list-style-type: none;
-    text-align: center;
-    padding-top: 10px;
-}
-
-.mapa{
-    width: 500px;
-    text-align: center;
+    padding-top: 5%;
 }
 
 /* Productos y Ofertas */
