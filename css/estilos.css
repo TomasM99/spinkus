@@ -306,6 +306,8 @@ html{
     width: 300px;
 }
 
+/* Media queries*/
+
 @media screen and (max-width: 768px){
     
     .contenedor_padre{

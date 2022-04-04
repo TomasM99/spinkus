@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 
-
 <body class="container-fluid">
     <header class="row">
         <div class="navegador col-12">
@@ -47,34 +46,43 @@
                 <section> <!--Formulario para contacto-->
                     <h2>Hacenos tu consulta!</h2>
                     <div>
-                        <form>
-                            <label for="nombre">Ingrese nombre completo</label>
-                            <input type="text" placeholder="Nombre Apellido" name="nombre">
-
-                            <br>
-
-                            <label for="mail">Ingrese su mail</label>
-                            <input type="email" placeholder="email@example.com" name="mail">
-
-                            <br>
-
-                            <label for="ubicacion">Seleccione region</label>
-                            <select name="ubicacion">
-                                <option value="CABA">CABA</option>
-                                <option value="CONUR">GRAN BSAS</option>
-                                <option value="BSAS">BUENOS AIRES</option>
-                                <option value="ARG">RESTO DEL PAIS</option>
-                            </select>
-
-                            <br>
-
-                            <label for="pregunta">Ingrese su consulta</label>
-                            <textarea name="pregunta" cols="30" rows="10"></textarea>
-
-                            <br>
-
-                            <input type="submit" value="Enviar formulario">
-                            <input type="reset" value="Resetear formulario">
+                        <form class="row g-3">
+                            <div class="col-md-6">
+                                <label for="nombreCompleto" class="form-label">Nombre Completo</label>
+                                <input type="text" class="form-control" id="nombreCompleto" placeholder="Cosme Fulanito">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputEmail4" class="form-label">Mail</label>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="alguien@mail.com">
+                            </div>
+                            <div class="col-12">
+                                <label for="inputAddress" class="form-label">Direccion</label>
+                                <input type="text" class="form-control" id="inputAddress" placeholder="Calle Falsa 123">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputCity" class="form-label">Ciudad</label>
+                                <input type="text" class="form-control" id="inputCity" placeholder="Capital Federal">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="inputState" class="form-label">Provincia</label>
+                                <select id="inputState" class="form-select">
+                                <option selected>CABA</option>
+                                <option>Buenos Aires</option>
+                                <option>Cordoba</option>
+                                <option>Otra</option>
+                                </select>
+                            </div>
+                            <div class="col-md-2">
+                                <label for="inputZip" class="form-label">CP</label>
+                                <input type="text" class="form-control" id="inputZip">
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-text">Dejanos tu consulta</span>
+                                <textarea class="form-control" aria-label="With textarea"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary">Enviar</button>
+                            </div>
                         </form>
                     </div>
                 </section>
@@ -100,7 +108,6 @@
             </div>
         </div>
     </main>
-
 
     <footer class="row">
         <div class="pie_pagina col-12">
