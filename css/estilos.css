@@ -375,5 +375,26 @@ html{
 
 @media screen and (max-width: 570px){
 
+    .menu li{
+        padding: 10px;
+    }
+
+    .menu li a{
+        font-size: small;
+    }
+
+    .no_mostrar{
+        display: none;
+    }
 }
 
+@media screen and (max-width: 400px){
+    
+    .menu li{
+        padding: 5px;
+    }
+
+    .juguete{
+        width: 80%;
+    }
+}
