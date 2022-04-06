@@ -18,32 +18,6 @@ html{
     z-index: 100;
 }
 
-/*
-.contenedor_padre{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: 100px 100% 40px;
-    grid-template-areas:
-        "nav nav nav nav"
-        "main main main main"
-        "foot foot foot foot"
-    ;
-}
-
-.header{
-
-    grid-area: nav;
-}
-
-.cuerpo{
-    grid-area: main;
-}
-
-.footer{
-    grid-area: foot;
-}
-*/
-
 /* Menu */
 
 .navegador{
@@ -319,23 +293,13 @@ html{
 
 .mapas{
     height: 300px;
-    width: 300px;
+    width: 100%;
 }
 
 /* Media queries*/
 
-@media screen and (max-width: 768px){
-    
-    .contenedor_padre{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: 100px 2.6fr 0.1fr;
-        grid-template-areas:
-            "nav nav"
-            "main main"
-            "foot foot"
-        ;
-    }
+
+@media screen and (max-width: 894px){
     
     /*Index*/
 
@@ -353,30 +317,19 @@ html{
     .bienvenida{
         padding: 30px;
     }
-
-    .extras div{
-        display: inline-block;
-        margin-bottom: 20px;
-    }
     
-    .medios_pago{
-        background-color: #ddcad9;
-        width: 300px;
-    }
-    
-    .mapa{
-        width: 300px;
+    .mapas{
+        height: 200px;
     }
 
-    /*Quienes Somos*/
-
-    .beneficios{
-        margin-bottom: 100px;
-        height: 400px;
-    }
+    /*Productos y Ofertas*/
     
+    .juguete{
+        width: 40%;
+    }
 }
 
+/*
 @media screen and (max-width: 426px){
 
     .contenedor_padre{
@@ -394,7 +347,7 @@ html{
         font-size: 25px;
     }
 
-    /*Index*/
+    Index
 
     .header{
         flex-direction: column;
@@ -439,22 +392,6 @@ html{
         height: 150px;
     }
 
-    /*Quienes Somos*/
-
-    .elemento_box{
-        font-size: 25px;
-    }
-    
-    .box_informacion{
-        height: 500px;
     }
 
-    .box_informacion h2{
-        font-size: 40px;
-    }
-    
-    .beneficios{
-        height: 700px;
-    }
-
-}
+*/
