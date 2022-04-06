@@ -329,31 +329,20 @@ html{
     }
 }
 
-/*
-@media screen and (max-width: 426px){
 
-    .contenedor_padre{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 170px 2.6fr 0.1fr;
-        grid-template-areas:
-            "nav"
-            "main"
-            "foot"
-        ;
-    }
+@media screen and (max-width: 738px){
 
-    .menu li{
-        font-size: 25px;
-    }
+    /*Index*/
 
-    Index
-
-    .header{
+    .navegador{
+        display: flex;
         flex-direction: column;
-        justify-content: flex-end;
         align-items: center;
-    } 
+    }
+    
+    .logo{
+        margin-top: 25%;
+    }
 
     .slider{
         position: relative;
@@ -369,29 +358,22 @@ html{
     .bienvenida{
         padding: 20px;
     }
+
+    /*Productos y Ofertas*/
+
+    .catalogo{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
     
-    .medios_pago{
-        background-color: #ddcad9;
-        width: 200px;
+    .juguete{
+        width: 55%;
     }
 
-    .medios_pago h2{
-        font-size: medium;
-    }
-    
-    .mapa{
-        width: 200px;
-    }
+}
 
-    .mapa h2{
-        font-size: medium;
-    }
+@media screen and (max-width: 570px){
 
-    .mapas{
-        width: 150px;
-        height: 150px;
-    }
+}
 
-    }
-
-*/
