@@ -1,0 +1,51 @@
+.catalogo_titulo{
+    padding-left: 5%;
+    margin-top: 3%;
+}
+
+.juguete{
+    margin: 4%;
+    padding: 10px;
+    width: 25%;
+    background-color: $colorSecundario;
+    h3{
+        margin-top: 5%;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        margin-bottom: 0px;
+        padding: 1%;
+    }
+    input{
+        margin-top: 4%;
+        margin-left: 37%;
+        padding: 1%;
+    }
+    img{
+        height: 300px;
+        width: 99%;
+    }
+}
+
+.parrafo_combo{
+    background-color: $colorSecundario;
+    padding: 3%;
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}

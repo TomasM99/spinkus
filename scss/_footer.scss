@@ -1,0 +1,12 @@
+.pie_pagina {
+    display: flex;
+    justify-content: space-between;
+    background-color: $colorPrincipal;
+    div{
+        padding-top: 10px;
+    }
+}
+
+.redes_sociales p{
+    display: inline-block;
+}
