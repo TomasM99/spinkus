@@ -1,0 +1,24 @@
+1- El primer cambio que hice fue cambiarles los titulos a todas las paginas,
+poniendo uno un poco mas especifico para cada una de ellas.
+
+2- Sumar keywords generales para el proyecto, palabras relacionadas con juguetes, niños, madera
+y cosas asi.
+
+3- Se agrego una descripcion con el atributo meta description, declarando muy por encima a lo que
+apunta el sitio web. Las descripciones son personalizadas en cada una de las 5 paginas, teniendo la mas
+general para el index.
+
+4- En tanto a los encabezados, no habia muchos en mi sitio web, sacando los de las cartas de juguetes. Ahi
+tenemos el principal con un h2 que separa los distintos tipos, adentro tenemos los h3 que son los titulos de
+las cartas de juguetes.
+
+5- Toda la organizacion de la pagina esta correcta, tenemos los archivos ordenados en carpetas, sobre todo 
+las de multimedia. Otro punto a destacar, es que al tener un menu tipo navegable, se puede ir y volver
+a todas las paginas, independientemente en la pagina en la que estes.
+
+6- En tanto a los textos, se que faltan sacar los lorem y poner ya texto real (pienso hacerlo para la tercera
+entrega), pero no tendria errores y solo iria a lo concreto, facil de entender sin tantas vueltas. El contenido
+textual no esta puesto en imagenes, solo escrito.
+
+7- La web esta optimizada para mobiles, testeado con la pagina de google.
+
