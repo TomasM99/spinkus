@@ -50,8 +50,9 @@
   .pie_pagina div {
     padding-top: 10px; }
 
-.redes_sociales p {
-  display: inline-block; }
+.redes_sociales a {
+  text-decoration: none;
+  color: black; }
 
 .slider {
   position: relative;

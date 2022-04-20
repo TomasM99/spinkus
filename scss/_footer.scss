@@ -7,6 +7,9 @@
     }
 }
 
-.redes_sociales p{
-    display: inline-block;
+.redes_sociales{
+    a{
+        text-decoration: none;
+        color: black;
+    }
 }
