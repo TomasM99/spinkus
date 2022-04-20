@@ -30,6 +30,10 @@
 
 @media screen and (max-width: 738px){
 
+    .botonWpp{
+        display: none;
+    }
+
     /*Index*/
 
     .navegador{
@@ -72,6 +76,10 @@
 
 @media screen and (max-width: 570px){
 
+    .botonWpp{
+        display: none;
+    }
+    
     .menu li{
         padding: 10px;
         a{
@@ -85,6 +93,10 @@
 }
 
 @media screen and (max-width: 400px){
+    
+    .botonWpp{
+        display: none;
+    }
     
     .menu li{
         padding: 5px;
