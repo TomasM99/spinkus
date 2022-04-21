@@ -60,6 +60,10 @@
         padding: 20px;
     }
 
+    .texto-extras{
+        display: none;
+    }
+
     /*Productos y Ofertas*/
 
     .catalogo{
@@ -90,6 +94,11 @@
     .no_mostrar{
         display: none;
     }
+
+    .texto-extras{
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 400px){
@@ -105,4 +114,9 @@
     .juguete{
         width: 80%;
     }
+
+    .texto-extras{
+        display: none;
+    }
+
 }
