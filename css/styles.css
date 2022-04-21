@@ -15,6 +15,9 @@
     color: white;
     z-index: 101; }
 
+.sombra {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15); }
+
 .navegador {
   display: flex;
   justify-content: space-between;
@@ -58,6 +61,7 @@
   padding: 0; }
 
 .slider {
+  z-index: -1;
   position: relative;
   width: 100%;
   height: 600px;
@@ -94,15 +98,16 @@
       font-size: 20px;
       border-radius: 100%; }
       .menu_slider li a:hover {
-        background-color: #ddcad9; }
+        background-color: #7a8ac0; }
 
 .bienvenida {
-  background-color: #ddcad9;
+  background-color: #7a8ac0;
   margin-top: 20px;
   margin-bottom: 20px;
   padding-top: 50px;
   padding-bottom: 50px;
-  text-align: center; }
+  text-align: center;
+  color: #e9e9e9; }
 
 .extra {
   display: flex;
@@ -120,14 +125,16 @@
   margin: 4%;
   padding: 10px;
   width: 25%;
-  background-color: #ddcad9; }
+  background-color: #7a8ac0; }
   .juguete h3 {
     margin-top: 5%;
-    text-align: center; }
+    text-align: center;
+    color: #e9e9e9; }
   .juguete p {
     text-align: center;
     margin-bottom: 0px;
-    padding: 1%; }
+    padding: 1%;
+    color: #e9e9e9; }
   .juguete input {
     margin-top: 4%;
     margin-left: 37%;
@@ -137,8 +144,10 @@
     width: 99%; }
 
 .parrafo_combo {
-  background-color: #ddcad9;
+  background-color: #7a8ac0;
   padding: 3%; }
+  .parrafo_combo p {
+    color: #e9e9e9; }
 
 .hvr-grow {
   display: inline-block;
@@ -149,7 +158,7 @@
   -moz-osx-font-smoothing: grayscale;
   transition-duration: 0.3s;
   transition-property: transform;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25); }
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25); }
 
 .hvr-grow:hover,
 .hvr-grow:focus,
@@ -157,16 +166,20 @@
   transform: scale(1.1); }
 
 .quienes_somos {
-  background-color: #ddcad9;
-  margin-top: 2%;
-  margin-bottom: 2%; }
+  background-color: #7a8ac0;
+  z-index: -1;
+  padding-top: 2%;
+  padding-bottom: 2%; }
 
 .box_informacion {
   display: flex;
   flex-direction: column;
   align-items: center; }
   .box_informacion div h2 {
-    padding-top: 10%; }
+    padding-top: 20%; }
+
+.elemento_box {
+  color: #e9e9e9; }
 
 .parrafos_quienes_somos {
   display: flex;
@@ -179,15 +192,15 @@
 .fotos_circulares {
   display: flex;
   justify-content: center;
-  margin-top: 2%;
-  margin-bottom: 2%; }
+  margin-top: 4%;
+  margin-bottom: 4%; }
   .fotos_circulares div {
-    padding-left: 4%;
-    padding-right: 4%; }
+    padding-left: 3%;
+    padding-right: 3%; }
     .fotos_circulares div img {
       border-radius: 50%;
-      height: 100px;
-      width: 100px; }
+      height: 150px;
+      width: 150px; }
 
 .formulario {
   margin-top: 5%;

@@ -11,11 +11,13 @@
     h3{
         margin-top: 5%;
         text-align: center;
+        color: $colorLetra;
     }
     p{
         text-align: center;
         margin-bottom: 0px;
         padding: 1%;
+        color: $colorLetra;
     }
     input{
         margin-top: 4%;
@@ -31,6 +33,9 @@
 .parrafo_combo{
     background-color: $colorSecundario;
     padding: 3%;
+    p{
+        color: $colorLetra;
+    }
 }
 
 .hvr-grow {
@@ -42,7 +47,7 @@
     -moz-osx-font-smoothing: grayscale;
     transition-duration: 0.3s;
     transition-property: transform;
-    box-shadow: 10px 10px 10px rgba($color: #000000, $alpha: 0.25);
+    box-shadow: 5px 5px 5px rgba($color: #000000, $alpha: 0.25);
 }
 
 .hvr-grow:hover,
