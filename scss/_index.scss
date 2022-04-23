@@ -51,11 +51,21 @@
     }
 }
 
+.titulo_bienvenida{
+    margin-top: 20px;
+    background-color: $colorSecundario;
+    color: $colorLetra;
+    display: flex;
+    justify-content: center;
+    h2{
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+}
+
 .bienvenida{
     background-color: $colorSecundario;
-    margin-top: 20px;
     margin-bottom: 20px;
-    padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
     color: $colorLetra;

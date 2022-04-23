@@ -100,11 +100,19 @@
       .menu_slider li a:hover {
         background-color: #7a8ac0; }
 
+.titulo_bienvenida {
+  margin-top: 20px;
+  background-color: #7a8ac0;
+  color: #e9e9e9;
+  display: flex;
+  justify-content: center; }
+  .titulo_bienvenida h2 {
+    padding-top: 10px;
+    padding-bottom: 15px; }
+
 .bienvenida {
   background-color: #7a8ac0;
-  margin-top: 20px;
   margin-bottom: 20px;
-  padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
   color: #e9e9e9; }
@@ -137,7 +145,7 @@
     color: #e9e9e9; }
   .juguete input {
     margin-top: 4%;
-    margin-left: 37%;
+    margin-left: 36%;
     padding: 1%; }
   .juguete img {
     height: 300px;
@@ -275,6 +283,10 @@
     display: none; }
   .texto-extras {
     display: none; } }
+
+@media screen and (max-width: 530px) {
+  .juguete {
+    width: 75%; } }
 
 @media screen and (max-width: 400px) {
   .botonWpp {
