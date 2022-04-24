@@ -1,6 +1,33 @@
+.caja_formulario{
+    background-color: $colorSecundario;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 5%;
+}
+
 .formulario{
     margin-top: 5%;
     margin-bottom: 5%;
+    h2{
+        text-align: center;
+        color: $colorLetra;
+    }
+}
+
+.formulario_items{
+    color: $colorLetra;
+}
+
+.formulario_boton{
+    color: $colorLetra;
+    &:hover{
+        background-color: $colorPrincipal;
+        color: rgb(61, 42, 73)
+    }
 }
 
 .pago_ubi{
@@ -10,6 +37,27 @@
     article{
         margin-top: 5%;
         margin-bottom: 5%;
+    }
+}
+
+.medios_pago{
+    background-color: $colorSecundario;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    border-radius: 10%;
+    h2{
+        color: $colorLetra;
+    }
+}
+
+.iconos_pago{
+    display: flex;
+    justify-content: space-around;
+    i{
+        color: $colorLetra;
     }
 }
 

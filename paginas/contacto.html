@@ -44,30 +44,30 @@
     <main class="cuerpo">
         <div class="row">
             <div class="col-md-6 col-sm-12">
-                <section> <!--Formulario para contacto-->
+                <section class="caja_formulario"> <!--Formulario para contacto-->
                     <div class="formulario">
-                        <h2>Hacenos tu consulta!</h2>
+                        <h2><strong>¡Dejanos tu consulta!</strong></h2>
                     </div>
                     <div class="formulario">
                         <form class="row g-3">
                             <div class="col-md-6">
-                                <label for="nombreCompleto" class="form-label">Nombre Completo</label>
+                                <label for="nombreCompleto" class="form-label formulario_items">Nombre Completo</label>
                                 <input type="text" class="form-control" id="nombreCompleto" placeholder="Cosme Fulanito">
                             </div>
                             <div class="col-md-6">
-                                <label for="inputEmail4" class="form-label">Mail</label>
+                                <label for="inputEmail4" class="form-label formulario_items">Mail</label>
                                 <input type="email" class="form-control" id="inputEmail4" placeholder="alguien@mail.com">
                             </div>
                             <div class="col-12">
-                                <label for="inputAddress" class="form-label">Direccion</label>
+                                <label for="inputAddress" class="form-label formulario_items">Direccion</label>
                                 <input type="text" class="form-control" id="inputAddress" placeholder="Calle Falsa 123">
                             </div>
                             <div class="col-md-6">
-                                <label for="inputCity" class="form-label">Ciudad</label>
+                                <label for="inputCity" class="form-label formulario_items">Ciudad</label>
                                 <input type="text" class="form-control" id="inputCity" placeholder="Capital Federal">
                             </div>
                             <div class="col-md-4">
-                                <label for="inputState" class="form-label">Provincia</label>
+                                <label for="inputState" class="form-label formulario_items">Provincia</label>
                                 <select id="inputState" class="form-select">
                                 <option selected>CABA</option>
                                 <option>Buenos Aires</option>
@@ -76,7 +76,7 @@
                                 </select>
                             </div>
                             <div class="col-md-2">
-                                <label for="inputZip" class="form-label">CP</label>
+                                <label for="inputZip" class="form-label formulario_items">CP</label>
                                 <input type="text" class="form-control" id="inputZip">
                             </div>
                             <div class="input-group">
@@ -84,7 +84,7 @@
                                 <textarea class="form-control" aria-label="With textarea"></textarea>
                             </div>
                             <div class="col-12">
-                                <button type="submit" class="btn btn-outline-secondary">Enviar</button>
+                                <button type="submit" class="btn btn-outline-secondary formulario_boton"><strong>Enviar</strong></button>
                             </div>
                         </form>
                     </div>
@@ -93,14 +93,25 @@
 
             <div class="col-md-6 col-sm-12">
                 <section class="pago_ubi"> <!--Medios de pago y ubicacion-->
-                        <article>
+                        <article class="medios_pago">
                             <h2>Medios de pago</h2>
-                            <ul class="lista_medios_pago">
-                                <li>Efectivo</li>
-                                <li>Transferencia Bancaria</li>
-                                <li>Mercado Pago</li>
-                                <li>Tarjetas de Credito</li>
-                            </ul>
+                            <div class="iconos_pago">
+                                <div>
+                                    <i class="material-icons">credit_card</i>
+                                </div>
+                                <div>
+                                    <i class="material-icons">account_balance</i>
+                                </div>
+                                <div>
+                                    <i class="material-icons">payments</i>
+                                </div>
+                                <div>
+                                    <i class="material-icons">store</i>
+                                </div>
+                                <div>
+                                    <i class="material-icons">currency_bitcoin</i>
+                                </div>
+                            </div>
                         </article>
                         <article>
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.016887889518!2d-58.38375908505231!3d-34.60373446500544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses!2sar!4v1645674031320!5m2!1ses!2sar" class="mapas" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -111,7 +122,7 @@
     </main>
 
     <footer class="row">
-        <div class="pie_pagina col-12">
+        <div class="pie_pagina col-12 sombra2">
             <div>
                 <p>Sr.Spinkus</p>
             </div>

@@ -46,6 +46,9 @@
       .menu li a:hover {
         color: #3d2a49; }
 
+.sombra2 {
+  box-shadow: 10px 6px 10px 10px rgba(0, 0, 0, 0.15); }
+
 .pie_pagina {
   display: flex;
   justify-content: space-between;
@@ -210,9 +213,31 @@
       height: 150px;
       width: 150px; }
 
+.caja_formulario {
+  background-color: #7a8ac0;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 5%; }
+
 .formulario {
   margin-top: 5%;
   margin-bottom: 5%; }
+  .formulario h2 {
+    text-align: center;
+    color: #e9e9e9; }
+
+.formulario_items {
+  color: #e9e9e9; }
+
+.formulario_boton {
+  color: #e9e9e9; }
+  .formulario_boton:hover {
+    background-color: #ebded4;
+    color: #3d2a49; }
 
 .pago_ubi {
   display: flex;
@@ -221,6 +246,23 @@
   .pago_ubi article {
     margin-top: 5%;
     margin-bottom: 5%; }
+
+.medios_pago {
+  background-color: #7a8ac0;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: 5%;
+  border-radius: 10%; }
+  .medios_pago h2 {
+    color: #e9e9e9; }
+
+.iconos_pago {
+  display: flex;
+  justify-content: space-around; }
+  .iconos_pago i {
+    color: #e9e9e9; }
 
 .mapas {
   height: 300px;
