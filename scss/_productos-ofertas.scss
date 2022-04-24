@@ -31,9 +31,15 @@
     }
 }
 
+.caja_p_combo{
+    display: flex;
+    justify-content: center;
+}
+
 .parrafo_combo{
     background-color: $colorSecundario;
     padding: 3%;
+    width: 80%;
     p{
         color: $colorLetra;
     }
