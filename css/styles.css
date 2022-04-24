@@ -216,7 +216,7 @@
 .parrafos_quienes_somos {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: justify;
   padding-top: 1%;
   padding-bottom: 1%;
   width: 70%; }
@@ -325,7 +325,8 @@
       width: 100%;
       height: 300px; }
   .bienvenida {
-    padding: 20px; }
+    padding: 20px;
+    text-align: justify; }
   .texto-extras {
     display: none; }
   /*Productos y Ofertas*/
