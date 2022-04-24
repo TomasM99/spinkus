@@ -40,9 +40,28 @@
     background-color: $colorSecundario;
     padding: 3%;
     width: 80%;
+    border: 5px solid $colorPrincipal;
+    box-shadow: 5px 5px 5px rgba($color: #000000, $alpha: 0.25);
     p{
         color: $colorLetra;
     }
+}
+
+.contacto{
+    text-decoration: none;
+    color: $colorLetra;
+        &:hover{
+            color: rgb(61, 42, 73);
+        }
+}
+
+.tachado{
+    text-decoration: line-through;
+}
+
+.descuento{
+    font-weight: bold;
+    font-size: larger;
 }
 
 .hvr-grow {
